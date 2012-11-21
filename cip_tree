@@ -1,0 +1,107 @@
+#Body:
+    bg                          #2d5c80
+    color                       white
+    font                        Gill Sans MT
+    txtalign                    center
+    lineheight                  1.25em
+    
+    #Header:
+        #Time:
+            width               100%
+            padding             4px 0
+            fontsize            12pt
+            color               #52a8ec
+            bg                  #244966
+            shadow              inset 0 0 6px black 30%
+            txtshadow           0 -1px 0 black 60%
+
+        #Logo:
+            height              72px
+            padding             40px 0
+
+    #Content:
+        bg                      #fff
+        color                   #333
+        shadow                  0 2px 3px black 30%
+        txtshadow               0 1px 0 white
+        padding                 64px
+        radius                  7px
+        
+        #Search:
+            #Before:
+                bg              #eee
+                border          1px #ccc
+                radius          5px left
+                
+            #Input:
+                bg              white
+                border          1px #ccc
+                border:active   1px #52a8ec
+                shadow:active   0 8px #52a8ec 60%
+            
+            #Button:
+                bg              gradient-90 white #e6e6e6
+                bg:active       gradient-90 #e6e6e6 white
+                border          1px #ccc
+                radius          5px right
+                
+        #Results:
+            border              top+bottom 1px dashed black
+            bg                  #f2f2f2
+            
+            #Close:
+                color           #9d261d
+                fontsize        12pt
+                position        absolute
+                top             24px
+                right           24px
+                
+            #Text
+                padding         64px
+                color           #666
+                indent          32px
+                
+                #important:
+                    color       #333
+                    
+                #links:
+                    color       #2d5c80
+                    
+                #not-important:
+                    color       #999
+                
+                #icons:
+                    color       #f89406
+                    
+        #Otherstuff:
+            bg                  white
+            padding             64px
+            color               #333
+            fontsize            12pt
+            indent              32px
+            
+            #columns:
+                padding         20px
+                width           auto    (3 columns = 184px)
+                                        (2 columns = 286px)
+                                        (4 columns = 133px)
+                
+            #heading
+                color           #666
+                fontsize        16pt
+                
+            #icons-alert
+                color           #f89406
+                
+            #icons-like
+                color           #9d261d
+                
+            #icons-commend
+                color           #46a546
+                
+    #Footer
+        padding                 64px 0
+        fontsize                12pt
+        color                   white
+        txtshadow               0 2px 3px black 30%
+        txtalign                center
